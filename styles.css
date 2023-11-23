@@ -1,0 +1,78 @@
+body{
+  background-image: url(./images/train.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
+  display: flex;
+  justify-content: center;
+  
+}
+
+h1{
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+#count-el{
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.container{
+  line-height: 0.7;
+  margin-top: 3rem;
+  text-align: center;
+  
+}
+
+#increment-btn{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: none;
+  background-color: rgb(198, 25, 198);
+  font-size: 15px;
+  color: white;
+  border-radius: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
+  cursor: pointer;
+}
+
+#increment-btn:hover{
+  background-color: rgb(195, 95, 195);
+}
+
+#save-btn{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: none;
+  background-color: rgb(25, 198, 163);
+  font-size: 15px;
+  color: white;
+  border-radius: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
+  cursor: pointer;
+  margin-left: 20px;
+
+}
+
+#save-btn:hover{
+  background-color: rgb(74, 221, 191);
+}
+
+#p1{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 1.5rem;
+}
+
